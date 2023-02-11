@@ -6,38 +6,14 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-int a, b;
+Console.WriteLine("Введите два числа, для поиска из них большего и меньшего числа");
 
-a = 5;
-Console.WriteLine(a);
-b = 7;
-Console.WriteLine(b);
-if (a > b)
-{
-  Console.WriteLine("max = " + a);
-}
-  else
-  {
-    Console.WriteLine("max = " + b);
-  }
+Console.Write("Первое число - ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-a = 2;
-Console.WriteLine(a);
-b = 10;
-Console.WriteLine(b);
-if (a > b)
-{
-  Console.WriteLine("max = " + a);
-}
-  else
-  {
-    Console.WriteLine("max = " + b);
-  }
+Console.Write("Второе число - ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-a = -9;
-Console.WriteLine(a);
-b = -3;
-Console.WriteLine(b);
 if (a > b)
 {
   Console.WriteLine("max = " + a);
