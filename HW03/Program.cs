@@ -7,3 +7,18 @@
 // -3 -> нет
 // 7 -> нет
 
+Console.WriteLine("Введите число, для проверки (чётное или нечётное)");
+
+int a = Convert.ToInt32(Console.ReadLine());
+int i;
+
+i = a % 2;
+
+if (i == 0)
+{
+  Console.WriteLine("Да, число (" + a + ") - чётное!");
+}
+else
+{
+  Console.WriteLine("Нет, число " + a + " - нечётное!");
+}
