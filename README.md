@@ -5,7 +5,7 @@
 - a = 2 b = 10 -> max = 10
 - a = -9 b = -3 -> max = -3
 
-[Решение](Seminar001/HW/Program01.cs)
+[Решение](https://github.com/BigWolf21/Seminar001/blob/main/HW/Program01.cs)
 
 Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
@@ -13,7 +13,7 @@
 - 44 5 78 -> 78
 - 22 3 9 -> 22
 
-[Решение](Seminar001/HW02/Program.cs)
+[Решение](https://github.com/BigWolf21/Seminar001/blob/main/HW02/Program.cs)
 
 Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
@@ -21,11 +21,11 @@
 - -3 -> нет
 - 7 -> нет
 
-[Решение](Seminar001/HW03/Program.cs)
+[Решение](https://github.com/BigWolf21/Seminar001/blob/main/HW03/Program.cs)
 
 Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 - 5 -> 2, 4
 - 8 -> 2, 4, 6, 8
 
-[Решение](Seminar001/HW04/Program.cs)
+[Решение](https://github.com/BigWolf21/Seminar001/blob/main/HW04/Program.cs)
