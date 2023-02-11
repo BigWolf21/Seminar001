@@ -6,49 +6,19 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int a, b, c, max;
-a = 2;
-Console.WriteLine(a);
-b = 3;
-Console.WriteLine(b);
-c = 7;
-Console.WriteLine(c);
-max = a;
+Console.WriteLine("Введите три любых числа, для поиска среди них максимального");
 
-if(b > max)
-{
-  max = b;
-}
-if(c > max)
-{
-  max = c;
-}
-Console.WriteLine("max = " + max);
+Console.Write("Первое число - ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-a = 44;
-Console.WriteLine(a);
-b = 5;
-Console.WriteLine(b);
-c = 78;
-Console.WriteLine(c);
-max = a;
+Console.Write("Второе число - ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-if(b > max)
-{
-  max = b;
-}
-if(c > max)
-{
-  max = c;
-}
-Console.WriteLine("max = " + max);
+Console.Write("Третье число - ");
+int c = Convert.ToInt32(Console.ReadLine());
 
-a = 22;
-Console.WriteLine(a);
-b = 3;
-Console.WriteLine(b);
-c = 9;
-Console.WriteLine(c);
+
+int max;
 max = a;
 
 if(b > max)
