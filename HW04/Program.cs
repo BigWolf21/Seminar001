@@ -7,29 +7,20 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число, для того чтобы определить все чётные числа от 1 до заданного числа");
-
 Console.Write("Число - ");
-int N = Convert.ToInt32(Console.ReadLine());
+
+int numberN = Convert.ToInt32(Console.ReadLine());
 int size;
 int index;
 
-
-size = N + 1;
-
+size = numberN + 1;
 index = 0;
 
 while (index < size)
 {
-  if (index % 2 == 0)
+  if (index % 2 == 0 && index != 0)
   {
-    if (index == 0)
-    {
-
-    }
-    else
-    {
-      Console.Write(index + " ");
-    }
+    Console.Write(index + " ");
   }
   index = index + 1;
 }
