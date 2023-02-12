@@ -24,4 +24,3 @@ while (index < size)
   }
   index = index + 1;
 }
-

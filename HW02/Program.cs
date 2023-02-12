@@ -21,11 +21,11 @@ int numberC = Convert.ToInt32(Console.ReadLine());
 int max;
 max = numberA;
 
-if(numberB > max)
+if (numberB > max)
 {
   max = numberB;
 }
-if(numberC > max)
+if (numberC > max)
 {
   max = numberC;
 }
