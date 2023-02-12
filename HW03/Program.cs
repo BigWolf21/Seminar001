@@ -9,16 +9,16 @@
 
 Console.WriteLine("Введите число, для проверки (чётное или нечётное)");
 
-int a = Convert.ToInt32(Console.ReadLine());
-int i;
+int numberA = Convert.ToInt32(Console.ReadLine());
+int index;
 
-i = a % 2;
+index = numberA % 2;
 
-if (i == 0)
+if (index == 0)
 {
-  Console.WriteLine("Да, число (" + a + ") - чётное!");
+  Console.WriteLine("Да, число (" + numberA + ") - чётное!");
 }
 else
 {
-  Console.WriteLine("Нет, число " + a + " - нечётное!");
+  Console.WriteLine("Нет, число " + numberA + " - нечётное!");
 }
