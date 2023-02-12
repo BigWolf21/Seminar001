@@ -9,24 +9,24 @@
 Console.WriteLine("Введите три любых числа, для поиска среди них максимального");
 
 Console.Write("Первое число - ");
-int a = Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Второе число - ");
-int b = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Третье число - ");
-int c = Convert.ToInt32(Console.ReadLine());
+int numberC = Convert.ToInt32(Console.ReadLine());
 
 
 int max;
-max = a;
+max = numberA;
 
-if(b > max)
+if(numberB > max)
 {
-  max = b;
+  max = numberB;
 }
-if(c > max)
+if(numberC > max)
 {
-  max = c;
+  max = numberC;
 }
 Console.WriteLine("max = " + max);
