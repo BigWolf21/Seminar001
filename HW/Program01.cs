@@ -9,16 +9,16 @@
 Console.WriteLine("Введите два числа, для поиска из них большего и меньшего числа");
 
 Console.Write("Первое число - ");
-int a = Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Второе число - ");
-int b = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (a > b)
+if (numberA > numberB)
 {
-  Console.WriteLine("max = " + a);
+  Console.WriteLine("max = " + numberA);
 }
   else
   {
-    Console.WriteLine("max = " + b);
+    Console.WriteLine("max = " + numberB);
   }
